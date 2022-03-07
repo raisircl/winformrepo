@@ -19,7 +19,11 @@ namespace WindowsFormsDay1
 
         private void btnOk_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Hello {txtName.Text}","Greeting",MessageBoxButtons.OKCancel);
+            string msg = string.Format("Hello {0}", txtName.Text);
+
+            //MessageBox.Show($"Hello {txtName.Text}","Greeting",MessageBoxButtons.OKCancel);
+            //MessageBox.Show(msg, "Greeting", MessageBoxButtons.OKCancel);
+            MessageBox.Show("Hello " + txtName.Text, "Greeting", MessageBoxButtons.OKCancel);
 
         }
 

@@ -8,3 +8,14 @@ E:\code\dotn-net\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\Windows
 E:\code\dotn-net\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.exe
 E:\code\dotn-net\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.pdb
 E:\code\dotn-net\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmWelcome.resources
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\bin\Debug\WindowsFormsDay1.exe.config
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\bin\Debug\WindowsFormsDay1.exe
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\bin\Debug\WindowsFormsDay1.pdb
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.csproj.AssemblyReference.cache
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmControls.resources
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmWelcome.resources
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.Properties.Resources.resources
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.csproj.GenerateResource.cache
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.csproj.CoreCompileInputs.cache
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.exe
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.pdb
