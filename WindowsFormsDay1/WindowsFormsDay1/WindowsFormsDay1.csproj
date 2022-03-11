@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCalc.Designer.cs">
+      <DependentUpon>FrmCalc.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmControls.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmControls.Designer.cs">
       <DependentUpon>FrmControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEventDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEventDemo.Designer.cs">
+      <DependentUpon>FrmEventDemo.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmWelcome.cs">
       <SubType>Form</SubType>
@@ -60,8 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCalc.resx">
+      <DependentUpon>FrmCalc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmControls.resx">
       <DependentUpon>FrmControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEventDemo.resx">
+      <DependentUpon>FrmEventDemo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmWelcome.resx">
       <DependentUpon>FrmWelcome.cs</DependentUpon>

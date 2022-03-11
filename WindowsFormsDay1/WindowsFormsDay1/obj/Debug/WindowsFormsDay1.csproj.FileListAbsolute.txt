@@ -19,3 +19,5 @@ E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\D
 E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.csproj.CoreCompileInputs.cache
 E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.exe
 E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.pdb
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmEventDemo.resources
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmCalc.resources
