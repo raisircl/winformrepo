@@ -16,7 +16,7 @@ namespace WindowsFormsDay1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmCalc());
+            Application.Run(new FrmListControls());
         }
     }
 }

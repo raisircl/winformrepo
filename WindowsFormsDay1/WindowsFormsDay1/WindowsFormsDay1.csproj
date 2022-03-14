@@ -64,6 +64,12 @@
     <Compile Include="FrmEventDemo.Designer.cs">
       <DependentUpon>FrmEventDemo.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmListControls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListControls.Designer.cs">
+      <DependentUpon>FrmListControls.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmWelcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEventDemo.resx">
       <DependentUpon>FrmEventDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListControls.resx">
+      <DependentUpon>FrmListControls.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmWelcome.resx">
       <DependentUpon>FrmWelcome.cs</DependentUpon>
