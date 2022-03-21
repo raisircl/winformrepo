@@ -41,6 +41,17 @@ namespace WindowsFormsDay1
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtPCode = new System.Windows.Forms.TextBox();
+            this.txtPName = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtMRP = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtOfferPrice = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnSaveProduct = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -159,11 +170,105 @@ namespace WindowsFormsDay1
             this.label9.TabIndex = 8;
             this.label9.Text = "label9";
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(583, 61);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(94, 17);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "Product Code";
+            // 
+            // txtPCode
+            // 
+            this.txtPCode.Location = new System.Drawing.Point(683, 61);
+            this.txtPCode.Name = "txtPCode";
+            this.txtPCode.Size = new System.Drawing.Size(100, 22);
+            this.txtPCode.TabIndex = 13;
+            // 
+            // txtPName
+            // 
+            this.txtPName.Location = new System.Drawing.Point(683, 99);
+            this.txtPName.Name = "txtPName";
+            this.txtPName.Size = new System.Drawing.Size(187, 22);
+            this.txtPName.TabIndex = 15;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(583, 99);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(98, 17);
+            this.label11.TabIndex = 14;
+            this.label11.Text = "Product Name";
+            // 
+            // txtMRP
+            // 
+            this.txtMRP.Location = new System.Drawing.Point(683, 140);
+            this.txtMRP.Name = "txtMRP";
+            this.txtMRP.Size = new System.Drawing.Size(100, 22);
+            this.txtMRP.TabIndex = 17;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(583, 145);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(38, 17);
+            this.label12.TabIndex = 16;
+            this.label12.Text = "MRP";
+            // 
+            // txtOfferPrice
+            // 
+            this.txtOfferPrice.Location = new System.Drawing.Point(683, 185);
+            this.txtOfferPrice.Name = "txtOfferPrice";
+            this.txtOfferPrice.Size = new System.Drawing.Size(100, 22);
+            this.txtOfferPrice.TabIndex = 19;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(583, 185);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(76, 17);
+            this.label13.TabIndex = 18;
+            this.label13.Text = "Offer Price";
+            // 
+            // btnSaveProduct
+            // 
+            this.btnSaveProduct.Location = new System.Drawing.Point(719, 229);
+            this.btnSaveProduct.Name = "btnSaveProduct";
+            this.btnSaveProduct.Size = new System.Drawing.Size(97, 34);
+            this.btnSaveProduct.TabIndex = 20;
+            this.btnSaveProduct.Text = "Add Product";
+            this.btnSaveProduct.UseVisualStyleBackColor = true;
+            this.btnSaveProduct.Click += new System.EventHandler(this.btnSaveProduct_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsFormsDay1.Properties.Resources.profile_;
+            this.pictureBox1.Location = new System.Drawing.Point(393, 338);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(330, 243);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmComboDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1011, 613);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btnSaveProduct);
+            this.Controls.Add(this.txtOfferPrice);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.txtMRP);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.txtPName);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.txtPCode);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label8);
@@ -179,6 +284,7 @@ namespace WindowsFormsDay1
             this.Name = "FrmComboDemo";
             this.Text = "FrmComboDemo";
             this.Load += new System.EventHandler(this.FrmComboDemo_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,5 +304,15 @@ namespace WindowsFormsDay1
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtPCode;
+        private System.Windows.Forms.TextBox txtPName;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtMRP;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtOfferPrice;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button btnSaveProduct;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

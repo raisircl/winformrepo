@@ -28,6 +28,11 @@ namespace WindowsFormsDay1
         bool blnorders=false;
         private void FrmComboDemo_Load(object sender, EventArgs e)
         {
+            //pictureBox1.Image = WindowsFormsDay1.Properties.Resources.sircl_logo;
+            pictureBox1.Image = Image.FromFile(@"ganesha.jpg");
+
+            pictureBox1.Image.Save("newganesha.jpg");
+            
             products.Add(new Product() { Code = 1001, Name = "CD",MRP=300.55M, OfferPrice=275.80M });
             products.Add(new Product() { Code = 1002, Name = "DVD", MRP = 300.55M, OfferPrice = 275.80M });
             products.Add(new Product() { Code = 1003, Name = "Mother Board", MRP = 300.55M, OfferPrice = 275.80M });
@@ -37,6 +42,7 @@ namespace WindowsFormsDay1
             cmbProducts.DataSource = products;
             cmbProducts.DisplayMember = "Name";
             cmbProducts.ValueMember = "Code";
+
             blnproducts = true;
 
             orders.Add(new Order() { OrderNo = 1, ProductCode = 1001, Price = 275.80M, Qty=10});
@@ -49,7 +55,7 @@ namespace WindowsFormsDay1
             orders.Add(new Order() { OrderNo = 3, ProductCode = 1003, Price = 275.80M, Qty=7 });
 
 
-            loadProducts();
+            //loadProducts();
         }
         void loadProducts()
         {
@@ -84,6 +90,7 @@ namespace WindowsFormsDay1
         }
         private void cmbProducts_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
             loadProducts();
         }
 
@@ -101,5 +108,28 @@ namespace WindowsFormsDay1
                 
             }
         }
+
+        private void btnSaveProduct_Click(object sender, EventArgs e)
+        {
+           
+            blnproducts = false;
+            cmbProducts.DataSource = null;
+
+            Product product = new Product();
+            product.Code = Convert.ToInt32(txtPCode.Text);
+            product.Name = txtPName.Text;
+            product.MRP = Convert.ToDecimal(txtMRP.Text);
+            product.OfferPrice = Convert.ToDecimal(txtOfferPrice.Text);
+            
+            products.Add(product);
+            
+            cmbProducts.DataSource = products;
+            cmbProducts.DisplayMember = "Name";
+            cmbProducts.ValueMember = "Code";
+            
+            MessageBox.Show("Product Added");
+            blnproducts = true;
+        }
     }
 }
+// state
