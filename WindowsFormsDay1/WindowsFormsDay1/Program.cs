@@ -16,7 +16,7 @@ namespace WindowsFormsDay1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmComboDemo());
+            Application.Run(new FrmDept());
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -56,6 +57,18 @@ namespace WindowsFormsDay1
 
 
             //loadProducts();
+            loadstates();
+        }
+        ArrayList al = new ArrayList();
+        void loadstates()
+        {
+            al.Add(new State() { Id = 1, StateName = "Haryana" });
+            al.Add(new State() { Id = 2, StateName = "Punjab" });
+            al.Add(new State() { Id = 3, StateName = "Raj" });
+            al.Add(new State() { Id = 4, StateName = "Gujrat" });
+            cmbStates.DataSource = al;
+            cmbStates.DisplayMember = "StateName";
+            cmbStates.ValueMember = "Id";
         }
         void loadProducts()
         {

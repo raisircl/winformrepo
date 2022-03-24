@@ -23,3 +23,4 @@ E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\D
 E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmCalc.resources
 E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmListControls.resources
 E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmComboDemo.resources
+E:\code\dotn-net\winformrepo\winformrepo\WindowsFormsDay1\WindowsFormsDay1\obj\Debug\WindowsFormsDay1.FrmDept.resources

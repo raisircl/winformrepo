@@ -51,6 +51,7 @@ namespace WindowsFormsDay1
             this.label13 = new System.Windows.Forms.Label();
             this.btnSaveProduct = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.cmbStates = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -247,18 +248,27 @@ namespace WindowsFormsDay1
             // pictureBox1
             // 
             this.pictureBox1.Image = global::WindowsFormsDay1.Properties.Resources.profile_;
-            this.pictureBox1.Location = new System.Drawing.Point(393, 338);
+            this.pictureBox1.Location = new System.Drawing.Point(277, 358);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(330, 243);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 21;
             this.pictureBox1.TabStop = false;
             // 
+            // cmbStates
+            // 
+            this.cmbStates.FormattingEnabled = true;
+            this.cmbStates.Location = new System.Drawing.Point(1009, 234);
+            this.cmbStates.Name = "cmbStates";
+            this.cmbStates.Size = new System.Drawing.Size(220, 24);
+            this.cmbStates.TabIndex = 22;
+            // 
             // FrmComboDemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1011, 613);
+            this.ClientSize = new System.Drawing.Size(1389, 613);
+            this.Controls.Add(this.cmbStates);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSaveProduct);
             this.Controls.Add(this.txtOfferPrice);
@@ -314,5 +324,6 @@ namespace WindowsFormsDay1
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnSaveProduct;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ComboBox cmbStates;
     }
 }
