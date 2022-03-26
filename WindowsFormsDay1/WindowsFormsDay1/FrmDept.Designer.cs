@@ -41,6 +41,7 @@ namespace WindowsFormsDay1
             this.dgvDept = new System.Windows.Forms.DataGridView();
             this.txtloc = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.lblNotification = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDept)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,7 +144,7 @@ namespace WindowsFormsDay1
             this.dgvDept.AllowUserToDeleteRows = false;
             this.dgvDept.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
             this.dgvDept.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDept.Location = new System.Drawing.Point(32, 260);
+            this.dgvDept.Location = new System.Drawing.Point(32, 292);
             this.dgvDept.Name = "dgvDept";
             this.dgvDept.ReadOnly = true;
             this.dgvDept.RowHeadersWidth = 51;
@@ -173,11 +174,22 @@ namespace WindowsFormsDay1
             this.label3.Text = "Location";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // lblNotification
+            // 
+            this.lblNotification.AutoSize = true;
+            this.lblNotification.Location = new System.Drawing.Point(40, 263);
+            this.lblNotification.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNotification.Name = "lblNotification";
+            this.lblNotification.Size = new System.Drawing.Size(0, 26);
+            this.lblNotification.TabIndex = 12;
+            this.lblNotification.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // FrmDept
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(814, 498);
+            this.Controls.Add(this.lblNotification);
             this.Controls.Add(this.txtloc);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dgvDept);
@@ -215,5 +227,6 @@ namespace WindowsFormsDay1
         private System.Windows.Forms.DataGridView dgvDept;
         private System.Windows.Forms.TextBox txtloc;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lblNotification;
     }
 }
