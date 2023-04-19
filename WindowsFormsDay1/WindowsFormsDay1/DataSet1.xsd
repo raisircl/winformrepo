@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="sircltechdbConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="sircltechdbConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.WindowsFormsDay1.Properties.Settings.GlobalReference.Default.sircltechdbConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtInvoices" msprop:Generator_RowEvHandlerName="dtInvoicesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtInvoicesRowDeleted" msprop:Generator_RowDeletingName="dtInvoicesRowDeleting" msprop:Generator_RowEvArgName="dtInvoicesRowChangeEvent" msprop:Generator_TablePropName="dtInvoices" msprop:Generator_RowChangedName="dtInvoicesRowChanged" msprop:Generator_RowChangingName="dtInvoicesRowChanging" msprop:Generator_TableClassName="dtInvoicesDataTable" msprop:Generator_RowClassName="dtInvoicesRow" msprop:Generator_TableVarName="tabledtInvoices" msprop:Generator_UserTableName="dtInvoices">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="invoiceno" msprop:Generator_ColumnPropNameInRow="invoiceno" msprop:Generator_ColumnPropNameInTable="invoicenoColumn" msprop:Generator_ColumnVarNameInTable="columninvoiceno" msprop:Generator_UserColumnName="invoiceno" type="xs:string" minOccurs="0" />
+              <xs:element name="amount" msprop:Generator_ColumnPropNameInRow="amount" msprop:Generator_ColumnPropNameInTable="amountColumn" msprop:Generator_ColumnVarNameInTable="columnamount" msprop:Generator_UserColumnName="amount" type="xs:string" minOccurs="0" />
+              <xs:element name="invoicedate" msprop:Generator_ColumnPropNameInRow="invoicedate" msprop:Generator_ColumnPropNameInTable="invoicedateColumn" msprop:Generator_ColumnVarNameInTable="columninvoicedate" msprop:Generator_UserColumnName="invoicedate" type="xs:string" minOccurs="0" />
+              <xs:element name="title" msprop:Generator_ColumnPropNameInRow="title" msprop:Generator_ColumnPropNameInTable="titleColumn" msprop:Generator_ColumnVarNameInTable="columntitle" msprop:Generator_UserColumnName="title" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtInvoiceDetails" msprop:Generator_RowEvHandlerName="dtInvoiceDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="dtInvoiceDetailsRowDeleted" msprop:Generator_RowDeletingName="dtInvoiceDetailsRowDeleting" msprop:Generator_RowEvArgName="dtInvoiceDetailsRowChangeEvent" msprop:Generator_TablePropName="dtInvoiceDetails" msprop:Generator_RowChangedName="dtInvoiceDetailsRowChanged" msprop:Generator_RowChangingName="dtInvoiceDetailsRowChanging" msprop:Generator_TableClassName="dtInvoiceDetailsDataTable" msprop:Generator_RowClassName="dtInvoiceDetailsRow" msprop:Generator_TableVarName="tabledtInvoiceDetails" msprop:Generator_UserTableName="dtInvoiceDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemName" msprop:Generator_ColumnPropNameInRow="ItemName" msprop:Generator_ColumnPropNameInTable="ItemNameColumn" msprop:Generator_ColumnVarNameInTable="columnItemName" msprop:Generator_UserColumnName="ItemName" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_UserColumnName="Qty" type="xs:string" minOccurs="0" />
+              <xs:element name="Rate" msprop:Generator_ColumnPropNameInRow="Rate" msprop:Generator_ColumnPropNameInTable="RateColumn" msprop:Generator_ColumnVarNameInTable="columnRate" msprop:Generator_UserColumnName="Rate" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_UserColumnName="Amount" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceId" msprop:Generator_ColumnPropNameInRow="InvoiceId" msprop:Generator_ColumnPropNameInTable="InvoiceIdColumn" msprop:Generator_ColumnVarNameInTable="columnInvoiceId" msprop:Generator_UserColumnName="InvoiceId" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dtInvoicesKey1">
+      <xs:selector xpath=".//mstns:dtInvoices" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="dtInvoiceDetailsKey1">
+      <xs:selector xpath=".//mstns:dtInvoiceDetails" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

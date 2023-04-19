@@ -42,6 +42,7 @@ namespace WindowsFormsDay1
             this.txtloc = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.lblNotification = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDept)).BeginInit();
             this.SuspendLayout();
             // 
@@ -184,11 +185,23 @@ namespace WindowsFormsDay1
             this.lblNotification.TabIndex = 12;
             this.lblNotification.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(684, 264);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(57, 26);
+            this.linkLabel1.TabIndex = 13;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Print";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // FrmDept
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(814, 498);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.lblNotification);
             this.Controls.Add(this.txtloc);
             this.Controls.Add(this.label3);
@@ -228,5 +241,6 @@ namespace WindowsFormsDay1
         private System.Windows.Forms.TextBox txtloc;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblNotification;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

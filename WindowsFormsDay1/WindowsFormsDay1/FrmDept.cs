@@ -33,37 +33,31 @@ namespace WindowsFormsDay1
           order by 1
           offset 0 rows fetch next 10 rows only  -- records fetch from 1st to 10th 
         */
-        private async void FrmDept_Load(object sender, EventArgs e)
+        private  void FrmDept_Load(object sender, EventArgs e)
         {
             conn.ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=sircltechdb;Integrated Security=True;";
 
-            lblNotification.Text = "data is loading please wait...";
-            Task<DataTable> task = new Task<DataTable>(loaddgvDept);
-            task.Start();
+           
+          
 
+            loaddgvDept();
 
-            dgvDept.DataSource = await task;
-            lblNotification.Text = "data is loaded successfully...";
-
+           
             dgvDept.Columns["Addon"].Visible = false;
             dgvDept.Columns[4].Visible = false;
 
         }
-        DataTable loaddgvDept()
+        void loaddgvDept()
         {
 
-            //ds.Tables.Clear(); // collection of tables
-            using (DataTable dt = new DataTable())
-            {
+            ds.Tables.Clear(); // collection of tables
+           
                 comm.CommandText = "select * from tbldept";
                 comm.CommandType = CommandType.Text;
                 comm.Connection = conn;
                 da.SelectCommand = comm;
-                dt.TableName = "dept";
-                da.Fill(dt);
-                Thread.Sleep(5000);
-                return dt;
-            }
+                da.Fill(ds,"dept");
+            dgvDept.DataSource = ds.Tables["dept"];
 
             
            
@@ -179,6 +173,16 @@ namespace WindowsFormsDay1
                 MessageBox.Show("Record Updated Successfully", "Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 loaddgvDept();
                 reset();
+            }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           // MessageBox.Show(ds.Tables.Count.ToString());
+            if(ds.Tables.Count>0)
+            {
+                Common.dsprint = ds;
+                
             }
         }
     }
